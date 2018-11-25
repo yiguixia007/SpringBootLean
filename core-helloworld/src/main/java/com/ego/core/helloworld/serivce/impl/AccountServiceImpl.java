@@ -1,6 +1,6 @@
 package com.ego.core.helloworld.serivce.impl;
 
-import com.ego.core.helloworld.dao.AccountDAO;
+import com.ego.core.helloworld.dao.AccountDao;
 import com.ego.core.helloworld.entity.Account;
 import com.ego.core.helloworld.serivce.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.List;
 public class AccountServiceImpl implements AccountService {
 
     @Autowired
-    private AccountDAO accountDAO;
+    private AccountDao accountDAO;
 
     @Override
     public int add(Account account) {

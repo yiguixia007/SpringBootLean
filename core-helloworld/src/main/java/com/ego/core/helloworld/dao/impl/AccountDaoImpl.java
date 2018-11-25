@@ -1,6 +1,6 @@
 package com.ego.core.helloworld.dao.impl;
 
-import com.ego.core.helloworld.dao.AccountDAO;
+import com.ego.core.helloworld.dao.AccountDao;
 import com.ego.core.helloworld.entity.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -15,7 +15,7 @@ import java.util.List;
  * @since 2018-11-25 10:06
  **/
 @Repository
-public class AccountDaoImpl implements AccountDAO {
+public class AccountDaoImpl implements AccountDao {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;

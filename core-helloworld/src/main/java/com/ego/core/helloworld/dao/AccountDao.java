@@ -8,7 +8,7 @@ import java.util.List;
  * @author ego
  * @since 2018-11-25 10:05
  **/
-public interface AccountDAO {
+public interface AccountDao {
     int add(Account account);
 
     int update(Account account);
