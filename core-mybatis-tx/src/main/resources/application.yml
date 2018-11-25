@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ego
+      username: root
+      password: 51fendou
+mybatis:
+  config-locations: classpath*:com/ego/core/mybatistx/*Mapper.xml   #mapper的xml文件存放位置
+  type-aliases-package: com.ego.core.mybatistx.entity   #指明和数据库映射的实体的所在包
