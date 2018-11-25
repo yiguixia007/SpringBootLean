@@ -1,4 +1,10 @@
 server:
-  port: 8082
+  port: 8080
 
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ego?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: 51fendou
 
